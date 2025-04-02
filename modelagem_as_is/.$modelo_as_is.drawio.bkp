@@ -1,14 +1,19 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="819" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="989" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="dNxyNK7c78bLwvsdeMH5-19" value="Modelo As-Is: Consulta às FISPQ&#39;s" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;" parent="1" vertex="1">
           <mxGeometry x="120" y="120" width="560" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="nLnUjlvC0J46Ff9aY2Y2-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;endArrow=classic;endFill=0;dashed=1;startArrow=oval;startFill=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-19" source="nLnUjlvC0J46Ff9aY2Y2-1" target="dNxyNK7c78bLwvsdeMH5-24">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="nLnUjlvC0J46Ff9aY2Y2-34" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.548;entryY=1.004;entryDx=0;entryDy=0;endArrow=classic;endFill=0;dashed=1;startArrow=oval;startFill=0;entryPerimeter=0;curved=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-19" source="nLnUjlvC0J46Ff9aY2Y2-1" target="nLnUjlvC0J46Ff9aY2Y2-42">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="208" y="110" />
+              <mxPoint x="409" y="110" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="nLnUjlvC0J46Ff9aY2Y2-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;dashed=1;endArrow=classic;endFill=0;startArrow=oval;startFill=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-19" source="nLnUjlvC0J46Ff9aY2Y2-21" target="nLnUjlvC0J46Ff9aY2Y2-1">
           <mxGeometry relative="1" as="geometry" />
@@ -82,6 +87,9 @@
         <mxCell id="nLnUjlvC0J46Ff9aY2Y2-49" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="nLnUjlvC0J46Ff9aY2Y2-48">
           <mxGeometry width="30" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="nLnUjlvC0J46Ff9aY2Y2-50" value="&lt;p style=&quot;line-height: 30%; font-size: 10px;&quot;&gt;2 horas&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-20">
+          <mxGeometry x="245" y="64" width="60" height="40" as="geometry" />
+        </mxCell>
         <mxCell id="dNxyNK7c78bLwvsdeMH5-21" value="Superintendente" style="swimlane;html=1;startSize=20;horizontal=0;" parent="dNxyNK7c78bLwvsdeMH5-19" vertex="1">
           <mxGeometry x="20" y="120" width="540" height="120" as="geometry" />
         </mxCell>
@@ -127,6 +135,9 @@
         <mxCell id="nLnUjlvC0J46Ff9aY2Y2-46" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="nLnUjlvC0J46Ff9aY2Y2-45">
           <mxGeometry width="30" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="nLnUjlvC0J46Ff9aY2Y2-52" value="&lt;span style=&quot;color: rgb(204, 0, 0); font-size: 10px; font-style: italic; text-wrap: nowrap;&quot;&gt;O processo atual é burocrático: é necessário&lt;/span&gt;&lt;div style=&quot;color: rgb(204, 0, 0); font-size: 10px; font-style: italic; text-wrap: nowrap;&quot;&gt;um ator intermediário, o Superintendente,&lt;/div&gt;&lt;div style=&quot;color: rgb(204, 0, 0); font-size: 10px; font-style: italic; text-wrap: nowrap;&quot;&gt;o que pode atrasar ainda mais o acesso&lt;/div&gt;&lt;div style=&quot;color: rgb(204, 0, 0); font-size: 10px; font-style: italic; text-wrap: nowrap;&quot;&gt;do funcionário às informações de segurança.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-21">
+          <mxGeometry x="300" y="30" width="210" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="dNxyNK7c78bLwvsdeMH5-22" value="Gestor de Químicos" style="swimlane;html=1;startSize=20;horizontal=0;" parent="dNxyNK7c78bLwvsdeMH5-19" vertex="1">
           <mxGeometry x="20" y="240" width="540" height="120" as="geometry" />
         </mxCell>
@@ -162,6 +173,24 @@
         </mxCell>
         <mxCell id="nLnUjlvC0J46Ff9aY2Y2-33" value="&lt;p style=&quot;line-height: 30%; font-size: 5px;&quot;&gt;FISPQ do&lt;/p&gt;&lt;p style=&quot;line-height: 30%; font-size: 5px;&quot;&gt;produto&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
           <mxGeometry x="180" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nLnUjlvC0J46Ff9aY2Y2-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="nLnUjlvC0J46Ff9aY2Y2-53" target="nLnUjlvC0J46Ff9aY2Y2-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nLnUjlvC0J46Ff9aY2Y2-53" value="&lt;font color=&quot;#cc0000&quot;&gt;&lt;span style=&quot;font-size: 10px; text-wrap: nowrap;&quot;&gt;&lt;i&gt;A busca pela ficha é feita manualmente, visto&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#cc0000&quot;&gt;&lt;span style=&quot;font-size: 10px; text-wrap: nowrap;&quot;&gt;&lt;i&gt;que as fichas são armazenadas em um&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#cc0000&quot;&gt;&lt;span style=&quot;font-size: 10px; text-wrap: nowrap;&quot;&gt;&lt;i&gt;arquivo físico. Esta busca demora, em média,&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#cc0000&quot;&gt;&lt;span style=&quot;font-size: 10px; text-wrap: nowrap;&quot;&gt;&lt;i&gt;1 hora.&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="200" y="500" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nLnUjlvC0J46Ff9aY2Y2-56" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.204;entryY=0.101;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;entryPerimeter=0;" edge="1" parent="1" source="nLnUjlvC0J46Ff9aY2Y2-55" target="nLnUjlvC0J46Ff9aY2Y2-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nLnUjlvC0J46Ff9aY2Y2-55" value="&lt;font color=&quot;#cc0000&quot;&gt;&lt;span style=&quot;font-size: 10px; text-wrap: nowrap;&quot;&gt;&lt;i&gt;Desde a requisição da ficha, intermédio do&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#cc0000&quot;&gt;&lt;span style=&quot;font-size: 10px; text-wrap: nowrap;&quot;&gt;&lt;i&gt;Superintendente, resposta do setor de químicos,&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#cc0000&quot;&gt;&lt;span style=&quot;font-size: 10px; text-wrap: nowrap;&quot;&gt;&lt;i&gt;devolução do Superintendente e, finalmente, entrega da&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#cc0000&quot;&gt;&lt;span style=&quot;font-size: 10px; text-wrap: nowrap;&quot;&gt;&lt;i&gt;ficha ao funcionário, todo o processo demora, em média,&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#cc0000&quot;&gt;&lt;span style=&quot;font-size: 10px; text-wrap: nowrap;&quot;&gt;&lt;i&gt;2 horas.&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="200" y="20" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nLnUjlvC0J46Ff9aY2Y2-58" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.941;entryY=0.028;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;entryPerimeter=0;" edge="1" parent="1" source="nLnUjlvC0J46Ff9aY2Y2-57" target="nLnUjlvC0J46Ff9aY2Y2-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nLnUjlvC0J46Ff9aY2Y2-57" value="&lt;font color=&quot;#cc0000&quot;&gt;&lt;span style=&quot;font-size: 10px; text-wrap: nowrap;&quot;&gt;&lt;i&gt;Por se tratar de um documento de 10 páginas com mais&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#cc0000&quot;&gt;&lt;span style=&quot;font-size: 10px; text-wrap: nowrap;&quot;&gt;&lt;i&gt;de 10 categorias de informação de segurança, essa busca&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#cc0000&quot;&gt;&lt;span style=&quot;font-size: 10px; text-wrap: nowrap;&quot;&gt;&lt;i&gt;da categoria, pelo funcionário, pode demorar ainda mais&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#cc0000&quot;&gt;&lt;span style=&quot;font-size: 10px; text-wrap: nowrap;&quot;&gt;&lt;i&gt;tempo.&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="500" y="20" width="270" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
