@@ -49,9 +49,6 @@
         <mxCell id="j5QrskLH5BS8TeyAzQOU-40" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#FF0000;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="j5QrskLH5BS8TeyAzQOU-28" target="j5QrskLH5BS8TeyAzQOU-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="j5QrskLH5BS8TeyAzQOU-42" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF0000;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="j5QrskLH5BS8TeyAzQOU-28" target="j5QrskLH5BS8TeyAzQOU-32">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="j5QrskLH5BS8TeyAzQOU-28" value="Validar Informações" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0066CC;fontColor=#FFFFFF;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="133" y="-78.5" width="141" height="80" as="geometry" />
         </mxCell>
@@ -65,12 +62,6 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="j5QrskLH5BS8TeyAzQOU-37" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF0000;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="j5QrskLH5BS8TeyAzQOU-30" target="j5QrskLH5BS8TeyAzQOU-32">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="j5QrskLH5BS8TeyAzQOU-45" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF0000;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="j5QrskLH5BS8TeyAzQOU-30" target="j5QrskLH5BS8TeyAzQOU-31">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="j5QrskLH5BS8TeyAzQOU-46" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF0000;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="j5QrskLH5BS8TeyAzQOU-30" target="j5QrskLH5BS8TeyAzQOU-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="j5QrskLH5BS8TeyAzQOU-30" value="FISPQ" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0066CC;fontColor=#FFFFFF;fontStyle=1" vertex="1" parent="1">
