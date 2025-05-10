@@ -1,0 +1,58 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.2.15 Chrome/134.0.6998.205 Electron/35.2.1 Safari/537.36" version="26.2.15">
+  <diagram name="Page-1" id="WAfeM-KDsJKEpDYiXBp4">
+    <mxGraphModel dx="1569" dy="432" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vy3WbxJACUoIjUPOh-5--1" value="&amp;lt;&amp;lt;Interface Serviço&amp;gt;&amp;gt;&lt;div&gt;Cadastrar FISPQ&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="40" width="300" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="vy3WbxJACUoIjUPOh-5--2" value="&lt;div&gt;+ Coletar arquivo da FISPQ para cadastro (&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ArquivoFISPQ):&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;sucesso: bool&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="vy3WbxJACUoIjUPOh-5--1">
+          <mxGeometry y="40" width="300" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vy3WbxJACUoIjUPOh-5--3" value="+&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;Coletar confirmação do arquivo da FISPQ&lt;/span&gt;&lt;div&gt;(ConfirmacaoFISPQ):&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;sucesso: bool&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="vy3WbxJACUoIjUPOh-5--1">
+          <mxGeometry y="90" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vy3WbxJACUoIjUPOh-5--4" value="&lt;div&gt;+ Transcrever FISPQ (&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ArquivoFISPQ):&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;FISPQ_Transcrita: texto&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="vy3WbxJACUoIjUPOh-5--1">
+          <mxGeometry y="150" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vy3WbxJACUoIjUPOh-5--5" value="&amp;lt;&amp;lt;Mediacao&amp;gt;&amp;gt;&lt;div&gt;Cadastrar FISPQ Mediação&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="360" width="300" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="vy3WbxJACUoIjUPOh-5--6" value="&amp;lt;&amp;lt; Interface Servico &amp;gt;&amp;gt; Cadastrar FISPQ" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="vy3WbxJACUoIjUPOh-5--5">
+          <mxGeometry y="40" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vy3WbxJACUoIjUPOh-5--10" value="&lt;div&gt;+ Coletar arquivo da FISPQ para cadastro (&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="vy3WbxJACUoIjUPOh-5--5">
+          <mxGeometry y="70" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vy3WbxJACUoIjUPOh-5--7" value="+&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;Coletar confirmação do arquivo da FISPQ&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;()&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="vy3WbxJACUoIjUPOh-5--5">
+          <mxGeometry y="100" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vy3WbxJACUoIjUPOh-5--8" value="&lt;div&gt;+ Transcrever FISPQ (&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="vy3WbxJACUoIjUPOh-5--5">
+          <mxGeometry y="130" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vy3WbxJACUoIjUPOh-5--11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1.011;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=block;endFill=0;dashed=1;" edge="1" parent="1" source="vy3WbxJACUoIjUPOh-5--5" target="vy3WbxJACUoIjUPOh-5--4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vy3WbxJACUoIjUPOh-5--12" value="&amp;lt;&amp;lt;Componente Serviço&amp;gt;&amp;gt;&lt;div&gt;Coletar arquivo da FISPQ para cadastro&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="610" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="vy3WbxJACUoIjUPOh-5--14" value="&lt;div&gt;+ Coletar arquivo da FISPQ para cadastro (&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="vy3WbxJACUoIjUPOh-5--12">
+          <mxGeometry y="40" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vy3WbxJACUoIjUPOh-5--17" value="&amp;lt;&amp;lt;Componente Serviço&amp;gt;&amp;gt;&lt;div&gt;Coletar confirmação do arquivo da FISPQ&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="610" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="vy3WbxJACUoIjUPOh-5--18" value="&lt;div&gt;+ Coletar confirmação do arquivo da FISPQ (&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="vy3WbxJACUoIjUPOh-5--17">
+          <mxGeometry y="40" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vy3WbxJACUoIjUPOh-5--19" value="&amp;lt;&amp;lt;Componente Serviço&amp;gt;&amp;gt;&lt;div&gt;Coletar confirmação do arquivo da FISPQ&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="610" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="vy3WbxJACUoIjUPOh-5--20" value="&lt;div&gt;+ Coletar confirmação do arquivo da FISPQ (&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="vy3WbxJACUoIjUPOh-5--19">
+          <mxGeometry y="40" width="300" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

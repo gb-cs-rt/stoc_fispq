@@ -1,56 +1,164 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.2.15 Chrome/134.0.6998.205 Electron/35.2.1 Safari/537.36" version="26.2.15">
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.2.2 Chrome/134.0.6998.178 Electron/35.1.2 Safari/537.36" version="26.2.2">
   <diagram name="Page-1" id="WAfeM-KDsJKEpDYiXBp4">
-    <mxGraphModel dx="1569" dy="432" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2530" dy="989" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="vy3WbxJACUoIjUPOh-5--1" value="&amp;lt;&amp;lt;Interface Serviço&amp;gt;&amp;gt;&lt;div&gt;Cadastrar FISPQ&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="40" width="300" height="210" as="geometry" />
+        <mxCell id="vy3WbxJACUoIjUPOh-5--1" value="&amp;lt;&amp;lt;Interface Serviço&amp;gt;&amp;gt;&lt;div&gt;Cadastrar FISPQ&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="40" width="300" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="vy3WbxJACUoIjUPOh-5--2" value="&lt;div&gt;+ Coletar arquivo da FISPQ para cadastro (&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ArquivoFISPQ):&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;sucesso: bool&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="vy3WbxJACUoIjUPOh-5--1">
+        <mxCell id="vy3WbxJACUoIjUPOh-5--2" value="&lt;div&gt;+ Coletar arquivo da FISPQ para cadastro (&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ArquivoFISPQ):&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;sucesso: bool&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="vy3WbxJACUoIjUPOh-5--1" vertex="1">
           <mxGeometry y="40" width="300" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="vy3WbxJACUoIjUPOh-5--3" value="+&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;Coletar confirmação do arquivo da FISPQ&lt;/span&gt;&lt;div&gt;(ConfirmacaoFISPQ):&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;sucesso: bool&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="vy3WbxJACUoIjUPOh-5--1">
+        <mxCell id="vy3WbxJACUoIjUPOh-5--3" value="+&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;Coletar confirmação do arquivo da FISPQ&lt;/span&gt;&lt;div&gt;(ConfirmacaoFISPQ):&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;sucesso: bool&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="vy3WbxJACUoIjUPOh-5--1" vertex="1">
           <mxGeometry y="90" width="300" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vy3WbxJACUoIjUPOh-5--4" value="&lt;div&gt;+ Transcrever FISPQ (&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ArquivoFISPQ):&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;FISPQ_Transcrita: texto&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="vy3WbxJACUoIjUPOh-5--1">
+        <mxCell id="vy3WbxJACUoIjUPOh-5--4" value="&lt;div&gt;+ Transcrever FISPQ (&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ArquivoFISPQ):&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;FISPQ_Transcrita: texto&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="vy3WbxJACUoIjUPOh-5--1" vertex="1">
           <mxGeometry y="150" width="300" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vy3WbxJACUoIjUPOh-5--5" value="&amp;lt;&amp;lt;Mediacao&amp;gt;&amp;gt;&lt;div&gt;Cadastrar FISPQ Mediação&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="360" width="300" height="160" as="geometry" />
+        <mxCell id="LSdI7aWrKTpHwZ_7dGIh-1" value="&lt;div&gt;+ Categorizar informações da FISPQ (&lt;span style=&quot;background-color: transparent;&quot;&gt;FISPQ Transcrita: texto&lt;font color=&quot;rgba(0, 0, 0, 0)&quot;&gt;):&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;ResultadoProcessamento&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="vy3WbxJACUoIjUPOh-5--1" vertex="1">
+          <mxGeometry y="210" width="300" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vy3WbxJACUoIjUPOh-5--6" value="&amp;lt;&amp;lt; Interface Servico &amp;gt;&amp;gt; Cadastrar FISPQ" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="vy3WbxJACUoIjUPOh-5--5">
+        <mxCell id="vy3WbxJACUoIjUPOh-5--5" value="&amp;lt;&amp;lt;Mediacao&amp;gt;&amp;gt;&lt;div&gt;Cadastrar FISPQ Mediação&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="360" width="300" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="vy3WbxJACUoIjUPOh-5--6" value="&amp;lt;&amp;lt; Interface Servico &amp;gt;&amp;gt; Cadastrar FISPQ" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="vy3WbxJACUoIjUPOh-5--5" vertex="1">
           <mxGeometry y="40" width="300" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vy3WbxJACUoIjUPOh-5--10" value="&lt;div&gt;+ Coletar arquivo da FISPQ para cadastro (&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="vy3WbxJACUoIjUPOh-5--5">
+        <mxCell id="vy3WbxJACUoIjUPOh-5--10" value="&lt;div&gt;+ Coletar arquivo da FISPQ para cadastro (&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="vy3WbxJACUoIjUPOh-5--5" vertex="1">
           <mxGeometry y="70" width="300" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vy3WbxJACUoIjUPOh-5--7" value="+&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;Coletar confirmação do arquivo da FISPQ&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;()&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="vy3WbxJACUoIjUPOh-5--5">
+        <mxCell id="vy3WbxJACUoIjUPOh-5--7" value="+&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;Coletar confirmação do arquivo da FISPQ&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;()&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="vy3WbxJACUoIjUPOh-5--5" vertex="1">
           <mxGeometry y="100" width="300" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vy3WbxJACUoIjUPOh-5--8" value="&lt;div&gt;+ Transcrever FISPQ (&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="vy3WbxJACUoIjUPOh-5--5">
+        <mxCell id="vy3WbxJACUoIjUPOh-5--8" value="&lt;div&gt;+ Transcrever FISPQ (&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="vy3WbxJACUoIjUPOh-5--5" vertex="1">
           <mxGeometry y="130" width="300" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vy3WbxJACUoIjUPOh-5--11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1.011;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=block;endFill=0;dashed=1;" edge="1" parent="1" source="vy3WbxJACUoIjUPOh-5--5" target="vy3WbxJACUoIjUPOh-5--4">
+        <mxCell id="LSdI7aWrKTpHwZ_7dGIh-2" value="&lt;div&gt;+ Categorizar informações da FISPQ&amp;nbsp;(&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="vy3WbxJACUoIjUPOh-5--5" vertex="1">
+          <mxGeometry y="160" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vy3WbxJACUoIjUPOh-5--11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;dashed=1;strokeWidth=2;" parent="1" source="vy3WbxJACUoIjUPOh-5--5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vy3WbxJACUoIjUPOh-5--12" value="&amp;lt;&amp;lt;Componente Serviço&amp;gt;&amp;gt;&lt;div&gt;Coletar arquivo da FISPQ para cadastro&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-210" y="610" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="vy3WbxJACUoIjUPOh-5--14" value="&lt;div&gt;+ Coletar arquivo da FISPQ para cadastro (&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="vy3WbxJACUoIjUPOh-5--12" vertex="1">
+          <mxGeometry y="40" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vy3WbxJACUoIjUPOh-5--17" value="&amp;lt;&amp;lt;Componente Serviço&amp;gt;&amp;gt;&lt;div&gt;Coletar confirmação do arquivo da FISPQ&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="130" y="610" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="vy3WbxJACUoIjUPOh-5--18" value="&lt;div&gt;+ Coletar confirmação do arquivo da FISPQ (&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="vy3WbxJACUoIjUPOh-5--17" vertex="1">
+          <mxGeometry y="40" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LSdI7aWrKTpHwZ_7dGIh-8" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;strokeColor=default;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startArrow=open;startFill=0;endArrow=none;endFill=0;" parent="1" source="vy3WbxJACUoIjUPOh-5--19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lKXH5l5VeC4I2pyTCoDB-3" value="Use" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LSdI7aWrKTpHwZ_7dGIh-8">
+          <mxGeometry x="-0.173" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vy3WbxJACUoIjUPOh-5--19" value="&amp;lt;&amp;lt;Componente Serviço&amp;gt;&amp;gt;&lt;div&gt;&lt;span style=&quot;text-align: left;&quot;&gt;Transcrever FISPQ&lt;/span&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="460" y="610" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="vy3WbxJACUoIjUPOh-5--20" value="&lt;div&gt;+ Transcrever FISPQ&amp;nbsp;(&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="vy3WbxJACUoIjUPOh-5--19" vertex="1">
+          <mxGeometry y="40" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LSdI7aWrKTpHwZ_7dGIh-9" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;strokeColor=default;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startArrow=open;startFill=0;endArrow=none;endFill=0;" parent="1" source="LSdI7aWrKTpHwZ_7dGIh-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="438.3333333333333" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lKXH5l5VeC4I2pyTCoDB-4" value="Use" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LSdI7aWrKTpHwZ_7dGIh-9">
+          <mxGeometry x="-0.0641" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LSdI7aWrKTpHwZ_7dGIh-3" value="&amp;lt;&amp;lt;Componente Serviço&amp;gt;&amp;gt;&lt;div&gt;&lt;span style=&quot;text-align: left;&quot;&gt;Categorizar informações da FISPQ&lt;/span&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="790" y="610" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LSdI7aWrKTpHwZ_7dGIh-4" value="&lt;div&gt;+ Categorizar informações da FISPQ&amp;nbsp;(&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="LSdI7aWrKTpHwZ_7dGIh-3" vertex="1">
+          <mxGeometry y="40" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LSdI7aWrKTpHwZ_7dGIh-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.533;entryY=1.013;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;startFill=0;startArrow=open;dashed=1;strokeWidth=2;" parent="1" source="vy3WbxJACUoIjUPOh-5--12" target="LSdI7aWrKTpHwZ_7dGIh-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vy3WbxJACUoIjUPOh-5--12" value="&amp;lt;&amp;lt;Componente Serviço&amp;gt;&amp;gt;&lt;div&gt;Coletar arquivo da FISPQ para cadastro&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-160" y="610" width="300" height="70" as="geometry" />
+        <mxCell id="lKXH5l5VeC4I2pyTCoDB-1" value="Use" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LSdI7aWrKTpHwZ_7dGIh-6">
+          <mxGeometry x="-0.018" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="vy3WbxJACUoIjUPOh-5--14" value="&lt;div&gt;+ Coletar arquivo da FISPQ para cadastro (&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="vy3WbxJACUoIjUPOh-5--12">
-          <mxGeometry y="40" width="300" height="30" as="geometry" />
+        <mxCell id="LSdI7aWrKTpHwZ_7dGIh-7" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.536;entryY=1.044;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;strokeColor=default;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startArrow=open;startFill=0;endArrow=none;endFill=0;" parent="1" source="vy3WbxJACUoIjUPOh-5--17" target="LSdI7aWrKTpHwZ_7dGIh-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vy3WbxJACUoIjUPOh-5--17" value="&amp;lt;&amp;lt;Componente Serviço&amp;gt;&amp;gt;&lt;div&gt;Coletar confirmação do arquivo da FISPQ&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="610" width="300" height="70" as="geometry" />
+        <mxCell id="lKXH5l5VeC4I2pyTCoDB-2" value="Use" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LSdI7aWrKTpHwZ_7dGIh-7">
+          <mxGeometry x="-0.1011" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="vy3WbxJACUoIjUPOh-5--18" value="&lt;div&gt;+ Coletar confirmação do arquivo da FISPQ (&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="vy3WbxJACUoIjUPOh-5--17">
-          <mxGeometry y="40" width="300" height="30" as="geometry" />
+        <mxCell id="LSdI7aWrKTpHwZ_7dGIh-10" value="&amp;lt;&amp;lt;Classe&amp;gt;&amp;gt;&lt;div&gt;FISPQ&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;fillColor=none;gradientColor=none;" parent="1" vertex="1">
+          <mxGeometry x="370" y="770" width="140" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="vy3WbxJACUoIjUPOh-5--19" value="&amp;lt;&amp;lt;Componente Serviço&amp;gt;&amp;gt;&lt;div&gt;Coletar confirmação do arquivo da FISPQ&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="510" y="610" width="300" height="70" as="geometry" />
+        <mxCell id="LSdI7aWrKTpHwZ_7dGIh-11" value="+ Criar ()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="LSdI7aWrKTpHwZ_7dGIh-10" vertex="1">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vy3WbxJACUoIjUPOh-5--20" value="&lt;div&gt;+ Coletar confirmação do arquivo da FISPQ (&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="vy3WbxJACUoIjUPOh-5--19">
-          <mxGeometry y="40" width="300" height="30" as="geometry" />
+        <mxCell id="LSdI7aWrKTpHwZ_7dGIh-12" value="+ Atualizar ()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="LSdI7aWrKTpHwZ_7dGIh-10" vertex="1">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LSdI7aWrKTpHwZ_7dGIh-13" value="+ Buscar ()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="LSdI7aWrKTpHwZ_7dGIh-10" vertex="1">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LSdI7aWrKTpHwZ_7dGIh-14" value="+ Remover ()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="LSdI7aWrKTpHwZ_7dGIh-10" vertex="1">
+          <mxGeometry y="120" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LSdI7aWrKTpHwZ_7dGIh-15" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.467;entryY=1.027;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;strokeColor=default;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startArrow=open;startFill=0;endArrow=none;endFill=0;" parent="1" source="LSdI7aWrKTpHwZ_7dGIh-10" target="vy3WbxJACUoIjUPOh-5--18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lKXH5l5VeC4I2pyTCoDB-7" value="Use" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LSdI7aWrKTpHwZ_7dGIh-15">
+          <mxGeometry x="0.006" y="-2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LSdI7aWrKTpHwZ_7dGIh-16" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.527;entryY=1.093;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;strokeColor=default;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startArrow=open;startFill=0;endArrow=none;endFill=0;" parent="1" source="LSdI7aWrKTpHwZ_7dGIh-10" target="vy3WbxJACUoIjUPOh-5--20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lKXH5l5VeC4I2pyTCoDB-6" value="Use" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LSdI7aWrKTpHwZ_7dGIh-16">
+          <mxGeometry x="0.1232" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LSdI7aWrKTpHwZ_7dGIh-17" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.501;entryY=1.053;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;strokeColor=default;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startArrow=open;startFill=0;endArrow=none;endFill=0;" parent="1" source="LSdI7aWrKTpHwZ_7dGIh-10" target="LSdI7aWrKTpHwZ_7dGIh-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lKXH5l5VeC4I2pyTCoDB-5" value="Use" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LSdI7aWrKTpHwZ_7dGIh-17">
+          <mxGeometry x="-0.013" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LSdI7aWrKTpHwZ_7dGIh-18" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.51;entryY=1.048;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;strokeColor=default;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startArrow=open;startFill=0;endArrow=none;endFill=0;" parent="1" source="LSdI7aWrKTpHwZ_7dGIh-10" target="vy3WbxJACUoIjUPOh-5--14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lKXH5l5VeC4I2pyTCoDB-8" value="Use" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LSdI7aWrKTpHwZ_7dGIh-18">
+          <mxGeometry x="-0.374" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LSdI7aWrKTpHwZ_7dGIh-19" value="&lt;b&gt;&amp;lt;&amp;lt;node&amp;gt;&amp;gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;Banco de dados&lt;/b&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;fillColor=none;gradientColor=none;" parent="1" vertex="1">
+          <mxGeometry x="370" y="970" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LSdI7aWrKTpHwZ_7dGIh-24" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.499;entryY=1.067;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;strokeColor=default;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startArrow=open;startFill=0;endArrow=none;endFill=0;" parent="1" source="LSdI7aWrKTpHwZ_7dGIh-19" target="LSdI7aWrKTpHwZ_7dGIh-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lKXH5l5VeC4I2pyTCoDB-9" value="Use" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LSdI7aWrKTpHwZ_7dGIh-24">
+          <mxGeometry x="0.1391" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
