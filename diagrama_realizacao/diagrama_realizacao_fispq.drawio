@@ -1,0 +1,237 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.2 Chrome/134.0.6998.205 Electron/35.3.0 Safari/537.36" version="27.0.2">
+  <diagram name="Página-1" id="KRQjeIOYZsAa_3LlogiB">
+    <mxGraphModel dx="2253" dy="849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IQrroqJaxl3xvuF_2TBO-1" value="&amp;lt;&amp;lt; Interface Servico &amp;gt;&amp;gt;&lt;div&gt;FISPQ&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="195" y="10" width="570" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="IQrroqJaxl3xvuF_2TBO-2" value="+ Buscar lista de produtos químicos (): ProdutoQuimico" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="IQrroqJaxl3xvuF_2TBO-1" vertex="1">
+          <mxGeometry y="30" width="570" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IQrroqJaxl3xvuF_2TBO-3" value="+ Buscar categorias da FISPQ (): categorias: lista" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="IQrroqJaxl3xvuF_2TBO-1" vertex="1">
+          <mxGeometry y="60" width="570" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IQrroqJaxl3xvuF_2TBO-4" value="+ Buscar subcategorias da FISPQ ():&amp;nbsp;subcategorias: lista" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="IQrroqJaxl3xvuF_2TBO-1" vertex="1">
+          <mxGeometry y="90" width="570" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L0l_3oTJU_ReCK1omFYl-1" value="+ Buscar FISPQ pelo nome do produto&amp;nbsp;(nome_produto: string): DetalhesFISPQ" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="IQrroqJaxl3xvuF_2TBO-1" vertex="1">
+          <mxGeometry y="120" width="570" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P6ZonDuDK8E9YcEOcKIF-1" value="+ Inserir FISPQ no banco de dados&amp;nbsp;(DetalhesFISPQ, ProdutoQuimico): sucesso: bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="IQrroqJaxl3xvuF_2TBO-1">
+          <mxGeometry y="150" width="570" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IQrroqJaxl3xvuF_2TBO-5" value="&amp;lt;&amp;lt; Mediacao &amp;gt;&amp;gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;text-align: left; background-color: initial;&quot;&gt;Funcionario&lt;/span&gt;&amp;nbsp;Mediacao&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="275.5" y="220" width="430" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="IQrroqJaxl3xvuF_2TBO-6" value="&amp;lt;&amp;lt; Interface Servico &amp;gt;&amp;gt; Funcionario" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="IQrroqJaxl3xvuF_2TBO-5" vertex="1">
+          <mxGeometry y="30" width="430" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IQrroqJaxl3xvuF_2TBO-7" value="+ Buscar lista de produtos químicos ()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="IQrroqJaxl3xvuF_2TBO-5" vertex="1">
+          <mxGeometry y="60" width="430" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IQrroqJaxl3xvuF_2TBO-8" value="+ Buscar categorias da FISPQ ()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="IQrroqJaxl3xvuF_2TBO-5" vertex="1">
+          <mxGeometry y="90" width="430" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L0l_3oTJU_ReCK1omFYl-3" value="+ Buscar subcategorias da FISPQ ()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="IQrroqJaxl3xvuF_2TBO-5" vertex="1">
+          <mxGeometry y="120" width="430" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IQrroqJaxl3xvuF_2TBO-9" value="+ Buscar FISPQ pelo nome do produto&amp;nbsp;()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="IQrroqJaxl3xvuF_2TBO-5" vertex="1">
+          <mxGeometry y="150" width="430" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P6ZonDuDK8E9YcEOcKIF-4" value="+ Inserir FISPQ no banco de dados&amp;nbsp;()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="IQrroqJaxl3xvuF_2TBO-5">
+          <mxGeometry y="180" width="430" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IQrroqJaxl3xvuF_2TBO-12" value="&amp;lt;&amp;lt; Componente Servico &amp;gt;&amp;gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;text-align: left; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Buscar lista de produtos químicos&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-260" y="541.53" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IQrroqJaxl3xvuF_2TBO-13" value="+ Buscar lista de produtos químicos ()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="IQrroqJaxl3xvuF_2TBO-12" vertex="1">
+          <mxGeometry y="30" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P6ZonDuDK8E9YcEOcKIF-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="IQrroqJaxl3xvuF_2TBO-24" target="IQrroqJaxl3xvuF_2TBO-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="186" y="670" />
+              <mxPoint x="466" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P6ZonDuDK8E9YcEOcKIF-28" value="Use" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="P6ZonDuDK8E9YcEOcKIF-22">
+          <mxGeometry x="-0.8636" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IQrroqJaxl3xvuF_2TBO-24" value="&amp;lt;&amp;lt; Componente Servico &amp;gt;&amp;gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;text-align: left; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Buscar categorias da FISPQ&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="65.5" y="541.53" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IQrroqJaxl3xvuF_2TBO-25" value="+ Buscar categorias da FISPQ ()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="IQrroqJaxl3xvuF_2TBO-24" vertex="1">
+          <mxGeometry y="30" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IQrroqJaxl3xvuF_2TBO-26" value="&amp;lt;&amp;lt; Componente Servico &amp;gt;&amp;gt;&lt;div&gt;&lt;span style=&quot;text-align: left;&quot;&gt;Buscar subcategorias da FISPQ&lt;/span&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="541.53" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IQrroqJaxl3xvuF_2TBO-27" value="+ Buscar subcategorias da FISPQ ()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="IQrroqJaxl3xvuF_2TBO-26" vertex="1">
+          <mxGeometry y="30" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IQrroqJaxl3xvuF_2TBO-37" value="&amp;lt;&amp;lt; Classe &amp;gt;&amp;gt;&lt;div&gt;FISPQ&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="395.5" y="780" width="140" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="IQrroqJaxl3xvuF_2TBO-38" value="+ Criar()&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="IQrroqJaxl3xvuF_2TBO-37" vertex="1">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IQrroqJaxl3xvuF_2TBO-39" value="+ Atualizar()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="IQrroqJaxl3xvuF_2TBO-37" vertex="1">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IQrroqJaxl3xvuF_2TBO-42" value="+ Buscar()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="IQrroqJaxl3xvuF_2TBO-37" vertex="1">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IQrroqJaxl3xvuF_2TBO-40" value="+ Remover" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="IQrroqJaxl3xvuF_2TBO-37" vertex="1">
+          <mxGeometry y="120" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IQrroqJaxl3xvuF_2TBO-49" value="&amp;lt;&amp;lt; node &amp;gt;&amp;gt;&lt;div&gt;Banco de dados&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="395.5" y="1010" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IQrroqJaxl3xvuF_2TBO-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;" parent="1" source="IQrroqJaxl3xvuF_2TBO-40" target="IQrroqJaxl3xvuF_2TBO-49" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="466" y="950" />
+              <mxPoint x="466" y="950" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P6ZonDuDK8E9YcEOcKIF-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="L0l_3oTJU_ReCK1omFYl-4" target="IQrroqJaxl3xvuF_2TBO-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="770" y="670" />
+              <mxPoint x="466" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P6ZonDuDK8E9YcEOcKIF-30" value="Use" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="P6ZonDuDK8E9YcEOcKIF-24">
+          <mxGeometry x="-0.8671" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L0l_3oTJU_ReCK1omFYl-4" value="&amp;lt;&amp;lt; Componente Servico &amp;gt;&amp;gt;&lt;div&gt;&lt;span style=&quot;text-align: left;&quot;&gt;Buscar FISPQ pelo nome do produto&lt;/span&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="650" y="541.53" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L0l_3oTJU_ReCK1omFYl-5" value="+ Buscar FISPQ pelo nome do produto&amp;nbsp;()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="L0l_3oTJU_ReCK1omFYl-4" vertex="1">
+          <mxGeometry y="30" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P6ZonDuDK8E9YcEOcKIF-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.518;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=block;endFill=0;" edge="1" parent="1" source="IQrroqJaxl3xvuF_2TBO-5" target="P6ZonDuDK8E9YcEOcKIF-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P6ZonDuDK8E9YcEOcKIF-9" value="&amp;lt;&amp;lt; Componente Servico &amp;gt;&amp;gt;&lt;div&gt;&lt;span style=&quot;text-align: left;&quot;&gt;Inserir FISPQ no banco de dados&lt;/span&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="541.53" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P6ZonDuDK8E9YcEOcKIF-10" value="+ Inserir FISPQ no banco de dados&amp;nbsp;()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="P6ZonDuDK8E9YcEOcKIF-9">
+          <mxGeometry y="30" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P6ZonDuDK8E9YcEOcKIF-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="P6ZonDuDK8E9YcEOcKIF-4" target="IQrroqJaxl3xvuF_2TBO-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="450" />
+              <mxPoint x="-130" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P6ZonDuDK8E9YcEOcKIF-16" value="Use" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="P6ZonDuDK8E9YcEOcKIF-11">
+          <mxGeometry x="0.8636" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P6ZonDuDK8E9YcEOcKIF-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="P6ZonDuDK8E9YcEOcKIF-4" target="IQrroqJaxl3xvuF_2TBO-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="450" />
+              <mxPoint x="186" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P6ZonDuDK8E9YcEOcKIF-17" value="Use" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="P6ZonDuDK8E9YcEOcKIF-12">
+          <mxGeometry x="0.7537" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P6ZonDuDK8E9YcEOcKIF-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="P6ZonDuDK8E9YcEOcKIF-4" target="IQrroqJaxl3xvuF_2TBO-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="440" />
+              <mxPoint x="480" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P6ZonDuDK8E9YcEOcKIF-18" value="Use" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="P6ZonDuDK8E9YcEOcKIF-13">
+          <mxGeometry x="0.2128" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P6ZonDuDK8E9YcEOcKIF-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="P6ZonDuDK8E9YcEOcKIF-4" target="L0l_3oTJU_ReCK1omFYl-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="450" />
+              <mxPoint x="770" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P6ZonDuDK8E9YcEOcKIF-19" value="Use" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="P6ZonDuDK8E9YcEOcKIF-14">
+          <mxGeometry x="0.7914" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P6ZonDuDK8E9YcEOcKIF-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="P6ZonDuDK8E9YcEOcKIF-4" target="P6ZonDuDK8E9YcEOcKIF-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="450" />
+              <mxPoint x="1060" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P6ZonDuDK8E9YcEOcKIF-20" value="Use" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="P6ZonDuDK8E9YcEOcKIF-15">
+          <mxGeometry x="0.879" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P6ZonDuDK8E9YcEOcKIF-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="IQrroqJaxl3xvuF_2TBO-13" target="IQrroqJaxl3xvuF_2TBO-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-130" y="670" />
+              <mxPoint x="466" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P6ZonDuDK8E9YcEOcKIF-26" value="Use" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="P6ZonDuDK8E9YcEOcKIF-21">
+          <mxGeometry x="-0.9223" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P6ZonDuDK8E9YcEOcKIF-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="IQrroqJaxl3xvuF_2TBO-27" target="IQrroqJaxl3xvuF_2TBO-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="466" y="691" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P6ZonDuDK8E9YcEOcKIF-29" value="Use" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="P6ZonDuDK8E9YcEOcKIF-23">
+          <mxGeometry x="-0.6244" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P6ZonDuDK8E9YcEOcKIF-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="P6ZonDuDK8E9YcEOcKIF-10" target="IQrroqJaxl3xvuF_2TBO-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1060" y="670" />
+              <mxPoint x="466" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P6ZonDuDK8E9YcEOcKIF-31" value="Use" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="P6ZonDuDK8E9YcEOcKIF-25">
+          <mxGeometry x="-0.912" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
